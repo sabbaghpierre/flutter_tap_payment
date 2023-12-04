@@ -24,10 +24,10 @@ class TapServices {
       });
       var body = json.decode(response.body);
       if (response.statusCode == 200) {
-        debugPrint(body);
+        debugPrint(body.toString());
         return {'error': false, 'message': body};
       } else {
-        debugPrint(body);
+        debugPrint(body.toString());
         return {
           'error': true,
           'message': "${body["errors"]?[0]?["description"]}"
