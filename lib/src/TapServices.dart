@@ -37,7 +37,7 @@ class TapServices {
       debugPrint("$e");
       return {
         'error': true,
-        'message': "Unable to proceed, check your internet connection."
+        'message': "Unable to proceed, check your internet connection. ${e.toString()}"
       };
     }
   }
