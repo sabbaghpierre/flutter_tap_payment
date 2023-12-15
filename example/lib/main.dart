@@ -43,12 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (BuildContext context) => TapPayment(
-                            apiKey: "YOUR_API_KEY",
-                            redirectUrl: "http://your_website.com/redirect_url",
-                            postUrl: "http://your_website.com/post_url",
+                            apiKey: "sk_test_tLCT3g51BzuYlyGhrMswjqoQ",
+                            redirectUrl: "http://urbanbeirut.com/redirect_url",
+                            postUrl: "http://urbanbeirut.com/post_url",
                             paymentData: const {
-                              "amount": 10,
-                              "currency": "OMR",
+                              "amount": 50,
+                              "currency": "USD",
                               "threeDSecure": true,
                               "save_card": false,
                               "description": "Test Description",
